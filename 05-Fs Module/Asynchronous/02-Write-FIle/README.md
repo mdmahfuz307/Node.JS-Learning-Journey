@@ -39,18 +39,14 @@ console.log("Server Run Success");
 2. **সার্ভার তৈরি করা (Creating the Server):**
     
     ```jsx
-    javascript
-    Copy code
     const server = http.createServer((req, res) => {
-    
+
     ```
     
     - `http.createServer`: এটি একটি নতুন HTTP সার্ভার তৈরি করে। সার্ভারটি ক্লায়েন্টের রিকুয়েস্ট পাওয়ার সময় একটি ফাংশন কল করে, যেখানে `req` (রিকুয়েস্ট) এবং `res` (রেসপন্স) প্যারামিটার হিসেবে ব্যবহৃত হয়।
 3. **রিকুয়েস্ট URL চেক করা (Checking the Request URL):**
     
     ```jsx
-    javascript
-    Copy code
     if (req.url === "/") {
     
     ```
@@ -81,8 +77,6 @@ console.log("Server Run Success");
 6. **ফাইল সফলভাবে লেখা হলে (On Successful File Write):**
     
     ```jsx
-    javascript
-    Copy code
     else {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.write("File Write Success");
