@@ -120,6 +120,31 @@ console.log("Server Run Success");
 
 ## **fs read file Synchronous**
 
+```jsx
+const fs = require('fs');
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+    if (req.url === "/") { // Use '===' for comparison
+        try {
+            let myData = fs.readFileSync(`${__dirname}/Home.html`);
+            res.writeHead(200, { 'Content-Type': 'text/html' });
+            res.write(myData);
+            res.end();
+        } catch (err) {
+            console.error("Error reading file:", err);
+            res.writeHead(500);
+            res.end("Internal Server Error");
+        }
+    }
+});
+
+
+server.listen(5050);
+console.log("Server Run Success");
+
+```
+
 এই কোডটি Node.js দিয়ে একটি সার্ভার তৈরি করে, যা একটি HTTP রিকুয়েস্ট আসার পর সাড়া দেয়। সার্ভারটি `/` (হোম পেজ) URL-এ রিকুয়েস্ট করা হলে একটি HTML ফাইল পাঠায়। কোডটি ধাপে ধাপে বিশ্লেষণ করা হলো:
 
 ### কোড ব্যাখ্যা (বাংলায়):
