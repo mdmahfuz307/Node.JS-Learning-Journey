@@ -16,12 +16,12 @@ Module in Node.js is a simple / complex functionality organized in single or mul
 
 ![Screenshot 2024-11-02 124525.png](https://github.com/mdmahfuz307/Node.JS-Learning-Journey/blob/master/05-Fs%20Module/Images/Screenshot%202024-11-02%20124525.png)
 
-![Screenshot 2024-11-02 124622.png](05-Fs Module/Images/Screenshot 2024-11-02 124622.png)
+![Screenshot 2024-11-02 124622.png](https://github.com/mdmahfuz307/Node.JS-Learning-Journey/blob/master/05-Fs%20Module/Images/Screenshot%202024-11-02%20124622.png)
 
 - **Understanding Synchronous Asynchronous Theory**
 - **Real Example For Clear Concept**
 
-![Screenshot 2024-11-02 124821.png](05-Fs Module/Images/Screenshot 2024-11-02 124821.png)
+![Screenshot 2024-11-02 124821.png](https://github.com/mdmahfuz307/Node.JS-Learning-Journey/blob/master/05-Fs%20Module/Images/Screenshot%202024-11-02%20124821.png)
 
 এই ছবিতে **Synchronous Transmission** বা **সিঙ্ক্রোনাস ট্রান্সমিশন** সম্পর্কে ধারণা দেওয়া হয়েছে।
 
@@ -33,7 +33,7 @@ Module in Node.js is a simple / complex functionality organized in single or mul
 
 সাধারণভাবে, সিঙ্ক্রোনাস ট্রান্সমিশন বড় ডেটা এবং দ্রুতগামী প্রয়োগের জন্য উপযুক্ত যেখানে ডেটার ধারাবাহিকতা বজায় রাখতে হয়।
 
-![Screenshot 2024-11-02 124840.png](05-Fs Module/Images/Screenshot 2024-11-02 124840.png)
+![Screenshot 2024-11-02 124840.png](https://github.com/mdmahfuz307/Node.JS-Learning-Journey/blob/master/05-Fs%20Module/Images/Screenshot%202024-11-02%20124840.png)
 
 এই ছবিতে **Synchronous Theory** বা সিঙ্ক্রোনাস তত্ত্বের একটি উদাহরণ দেখানো হয়েছে, যেখানে সিঙ্ক্রোনাস পদ্ধতিতে ক্লায়েন্ট এবং সার্ভারের মধ্যে ডেটা লেনদেনের প্রক্রিয়া বোঝানো হয়েছে।
 
@@ -59,7 +59,7 @@ Module in Node.js is a simple / complex functionality organized in single or mul
 
 সাধারণভাবে, সিঙ্ক্রোনাস পদ্ধতিতে একটি কাজ সম্পন্ন হওয়া পর্যন্ত অন্য কোনো কাজ করা সম্ভব হয় না। এটি সহজ হলেও অপেক্ষার প্রয়োজন থাকায় বড় প্রজেক্ট বা জটিল কাজের জন্য কম কার্যকর।
 
-![Screenshot 2024-11-02 124857.png](05-Fs Module/Images/Screenshot 2024-11-02 124857.png)
+![Screenshot 2024-11-02 124857.png](https://github.com/mdmahfuz307/Node.JS-Learning-Journey/blob/master/05-Fs%20Module/Images/Screenshot%202024-11-02%20124857.png)
 
 এই ছবিতে **Asynchronous Transmission** বা অ্যাসিঙ্ক্রোনাস ট্রান্সমিশনের ধারণা দেখানো হয়েছে, যেখানে ডেটা প্রেরণের একটি নির্দিষ্ট প্রক্রিয়া ব্যাখ্যা করা হয়েছে।
 
@@ -84,7 +84,7 @@ Module in Node.js is a simple / complex functionality organized in single or mul
 
 অ্যাসিঙ্ক্রোনাস ট্রান্সমিশন সাধারণত ছোট ডেটা প্যাকেট পাঠানোর জন্য ব্যবহৃত হয়, যেখানে উচ্চ গতির প্রয়োজন হয় না।
 
-![Screenshot 2024-11-02 124914.png](05-Fs Module/Images/Screenshot 2024-11-02 124914.png)
+![Screenshot 2024-11-02 124914.png](https://github.com/mdmahfuz307/Node.JS-Learning-Journey/blob/master/05-Fs%20Module/Images/Screenshot%202024-11-02%20124914.png)
 
 এই ছবিটি অ্যাসিঙ্ক্রোনাস থিয়োরি (Asynchronous Theory) নিয়ে আলোচনা করছে, বিশেষ করে জাভাস্ক্রিপ্ট এবং Node.js-এর ক্ষেত্রে। এখানে দেখানো হয়েছে যে কীভাবে অ্যাসিঙ্ক্রোনাস প্রক্রিয়া কাজ করে।
 
