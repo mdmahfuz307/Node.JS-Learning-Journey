@@ -14,7 +14,7 @@ Module in Node.js is a simple / complex functionality organized in single or mul
 **Synchronous:**   Loading…. Loading… you wait for it to finish….After finish you can move.
 **Asynchronous:**  No Loading… No Loading … no need to wait…. you can move.
 
-![Screenshot 2024-11-02 124525.png](05-Fs Module/Images/Screenshot 2024-11-02 124525.png)
+![Screenshot 2024-11-02 124525.png](https://github.com/mdmahfuz307/Node.JS-Learning-Journey/blob/master/05-Fs%20Module/Images/Screenshot%202024-11-02%20124525.png)
 
 ![Screenshot 2024-11-02 124622.png](05-Fs Module/Images/Screenshot 2024-11-02 124622.png)
 
